@@ -7,7 +7,7 @@ public class Item {
 
     private Long id;
     private String itemName;
-    private Integer price;
+    private Integer price;  //Integer를 쓰는 이유. 가격이 안들어가는 경우도 있기때문
     private Integer quantity;
 
     public Item() {

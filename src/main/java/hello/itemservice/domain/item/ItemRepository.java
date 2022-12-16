@@ -36,6 +36,6 @@ public class ItemRepository {
 
     public void clearStore() {
         store.clear();
-    }
+    } //HashMap 데이터 날려버리기
 
 }
